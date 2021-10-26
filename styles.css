@@ -231,6 +231,7 @@ body{
 }
 
 .card:hover .card-content{
+    transform: rotateY(.5turn);
     cursor: pointer;
 }
 
@@ -310,8 +311,17 @@ body{
 @media only screen and (max-width: 600px) {
     .header{
         padding-left: 20px;
+        padding-right: 20px;
         padding-bottom: 10px;
         padding-top: 30px;
+    }
+    
+    .btn{
+        padding: 10px 5px 5px 20px;   
+    }
+
+    .logo{
+        font-size: 25px;
     }
     
     .nav{
@@ -320,6 +330,15 @@ body{
     }
 
     .profile-pic{
-        margin-top: 0;
+        margin-top: 10px;
+        width: 15rem;
+    }
+
+    .profile-info{
+        padding:10px
+    }
+
+    .profile{
+        padding:10px
     }
   }
